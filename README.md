@@ -31,5 +31,7 @@ public int add(int a, int b) { ... } 和 public double add(double a, double b) {
 ##### 2、对象
 对象是类的一个实例（对象不是找个女朋友），有状态和行为。例如，一辆车是一个对象，他的状态有：品牌，颜色，生产商；行为有：跑高速，趴窝，美美哒换个颜色等。
 示例：
+~~~ java
 carInfo myCar = new carInfo(1001, "一汽大众");
 carInfo yourCar = new carInfo(1002, "一汽奥迪");
+~~~
