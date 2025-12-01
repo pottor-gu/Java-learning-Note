@@ -35,3 +35,7 @@ public int add(int a, int b) { ... } 和 public double add(double a, double b) {
 carInfo myCar = new carInfo(1001, "一汽大众");
 carInfo yourCar = new carInfo(1002, "一汽奥迪");
 ~~~
+#### 3、关于上传了两个类的嵌套
+  两个类的嵌套区别在于其中父类中变量的定义方式不同，其一使用的是protected，另外一个使用的是private
+  二者区别在于protected可以使子类直接访问父类中的变量，而private需要用自定义的get或set方法来对父类中的变量进行操作。
+    
